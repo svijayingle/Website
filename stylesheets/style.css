@@ -674,7 +674,28 @@ html, body {
       #about .about-btn .btn:hover {
         /*hover effect*/
         background: #046c40; }
-
+@media screen and (max-width: 767px) {
+  #about {
+  /*profile about*/
+  margin-top: 50px; }
+  #about .about-btn {
+    /*about buttons*/
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    animation-delay: 1s;
+    text-align: center; }
+    #about .about-btn .btn {
+      /*button style*/
+      margin: 7px 7px;
+      background: #06A763;
+      color: #ffffff;
+      width: 180px;
+      border-radius: 2px; }
+      #about .about-btn .btn:hover {
+        /*hover effect*/
+        background: #046c40; }
+}
 /*
 -------------------------------------------------------------------------------
 #TIMELINE SECTION BOTH 5.EDUCATION AND 7.EXPERIENCE EXTENDS FROM IT
